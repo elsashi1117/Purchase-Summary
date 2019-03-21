@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.pickup-tooltip {
+  position: relative;
+}
+.pickup-tooltip-text {
+  visibility: hidden;
+  width: 200%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  border: grey solid 1px;
+  margin-left: -100px;
+  margin-top: 40px;
+  padding: 4px
+}
+
+.pickup-tooltip:hover .pickup-tooltip-text {
+  visibility: visible;
+}
